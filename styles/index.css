@@ -229,3 +229,23 @@ a {
     height: 3.2rem;
     font-size: 1.8rem;
 }
+
+.about {
+    padding: 10rem;
+    align-items: center;
+    position: relative;
+}
+
+.about-img {
+    width: 27rem;
+    z-index: 1;
+}
+
+.about-description {
+    position: absolute;
+    background-color: #F3F3F3;
+    align-items: center;
+    padding: 10rem 10rem 5rem 10rem;
+    top: 25rem;
+    gap: 3rem;
+}
