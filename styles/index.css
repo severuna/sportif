@@ -68,6 +68,7 @@ a {
 
 .banner-description {
     justify-content: center;
+    gap: 2rem;
 }
 
 .banner-description__title {
@@ -78,7 +79,7 @@ a {
     text-transform: uppercase;
 }
 
-.banner-description__subtitle {
+.subtitle {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: #000000;
@@ -95,7 +96,6 @@ a {
     font-size: 2.4rem;
     padding: 1rem;
     text-align: center;
-    margin: 3rem 0;
     text-transform: uppercase;
 }
 
@@ -115,4 +115,49 @@ a {
 
 .sales-title span {
     font-size: 6.4rem;
+}
+
+.news {
+    padding: 10rem;
+    background-color: #F1F1F1;
+}
+
+.news-item {
+    text-align: center;
+    gap: 5rem;
+    align-items: center;
+    width: 50rem;
+}
+
+.news-item__banner {
+    width: 50rem;
+    height: 50rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.news-item__banner p {
+    position: absolute;
+    bottom: 0;
+    background-color:#A04955;
+    opacity: 0.8;
+    width: 100%;
+    height: 7rem;
+    font-family: 'Oswald', sans-serif;
+    color: #FFFFFF;
+    font-size: 3.6rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.ecoths {
+    background-image: url('/images/banner_ecoths.png');
+}
+
+.print {
+    background-image: url('/images/banner_print.png');
+}
+
+.news-item .goBtn {
+    width: 36rem;
 }
