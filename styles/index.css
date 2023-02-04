@@ -95,3 +95,20 @@ a {
     text-align: center;
     margin: 3rem 0;
 }
+
+.sales {
+    padding: 7.5rem;
+    background-color: #F1F1F1;
+    text-align: center;
+}
+
+.sales-title {
+    font-family: 'Oswald', sans-serif;
+    color: #333333;
+    font-size: 3.6rem;
+    font-weight: 500;
+}
+
+.sales-title span {
+    font-size: 6.4rem;
+}
