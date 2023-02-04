@@ -71,7 +71,7 @@ a {
     gap: 2rem;
 }
 
-.banner-description__title {
+.title {
     color: #001F3D;
     font-size: 6.5rem;
     font-family: 'Oswald', sans-serif;
@@ -150,6 +150,7 @@ a {
     font-weight: 500;
     text-transform: uppercase;
 }
+
 .ecoths {
     background-image: url('/images/banner_ecoths.png');
 }
@@ -160,4 +161,27 @@ a {
 
 .news-item .goBtn {
     width: 36rem;
+}
+
+.original {
+    background-image: url('/images/banner_sportif_original_pants.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55rem;
+    padding: 4rem 15rem;
+}
+
+.original-item {
+    width: 50rem;
+    gap: 2rem;
+}
+
+.original-item .title, .original-item .subtitle, .original-item .goBtn {
+    color: #FFFFFF;
+}
+
+.original-item .goBtn {
+    background-color: #A04955;
+    border: none;
+    width: 40rem;
 }
