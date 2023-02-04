@@ -234,6 +234,7 @@ a {
     padding: 10rem;
     align-items: center;
     position: relative;
+    height: 60rem;
 }
 
 .about-img {
@@ -248,4 +249,27 @@ a {
     padding: 10rem 10rem 5rem 10rem;
     top: 25rem;
     gap: 3rem;
+}
+
+.footer {
+    background-color: #A04955;
+    padding: 5rem 6rem;
+}
+
+.footer-nav {
+    gap: 1.4rem;
+}
+
+.footer-nav__title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 2.4rem;
+}
+
+.footer-nav__link {
+    color: #FFFFFF;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
 }
