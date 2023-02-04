@@ -273,3 +273,38 @@ a {
     font-weight: 400;
     font-size: 1.8rem;
 }
+
+.footer-form {
+    margin-top: 4rem;
+    position: relative;
+}
+
+.footer-form__input {
+    border: none;
+    height: 6rem;
+    width: 50rem;
+    margin: 2rem 0;
+    padding-left: 3rem;
+    background-color: #F3F3F3;
+}
+
+.footer-form__input::placeholder {
+    font-size: 1.8rem;
+    color: #A04955;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.footer-form__button {
+    position: absolute;
+    right: 5.5rem;
+    bottom: 3rem;
+    background-color: #A04955;
+    border: none;
+    color: #F3F3F3;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    width: 16rem;
+    height: 4rem;
+}
