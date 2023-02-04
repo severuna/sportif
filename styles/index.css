@@ -185,3 +185,47 @@ a {
     border: none;
     width: 40rem;
 }
+
+.trend {
+    margin: 9rem 6rem;
+    background-color: #A04955;
+    height: 40rem;
+}
+
+.trend .title {
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 3rem;
+}
+.trend-container {
+    justify-content: space-around;
+    padding: 3rem;
+}
+
+.trend-container__item {
+    background-color: #FFFFFF;
+    width: 32rem;
+    height: 36rem;
+    gap: 1rem;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #A04955;
+    padding: 1rem;
+}
+
+.trend-container__item img {
+    width: 19rem;
+}
+.trend-container__item .item-title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 2.4rem;
+}
+
+.trend-container__item .goBtn {
+    background-color: #A04955;
+    color: #FFFFFF;
+    border: none;
+    height: 3.2rem;
+    font-size: 1.8rem;
+}
