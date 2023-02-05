@@ -3,3 +3,42 @@
 .search {
     background-image: url('../../images/search_logo.svg');
 }
+
+.headline {
+    justify-content: space-between;
+    padding: 6rem;
+}
+
+.headline-home {
+    gap: 2rem;
+    text-transform: uppercase;
+}
+.headline-home__title {
+    font-weight: 400;
+    color: #000000;
+    font-family: 'Oswald';
+    font-size: 2.4rem;
+}
+
+.headline-home {
+    align-items: center;
+    font-size: 2.4rem;
+    font-family: 'Oswald';
+    color: #000000;
+    font-weight: 500;
+}
+
+.headline input {
+    width: 90rem;
+    height: 10rem;
+    border: none;
+    border-bottom: 2px solid #C4C4C4;
+}
+
+.headline input::placeholder {
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 6.4rem;
+    color: #C4C4C4;
+    text-transform: uppercase;
+}
