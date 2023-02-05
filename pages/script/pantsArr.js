@@ -229,7 +229,15 @@ const pantsArr = [
         src: "./images/pants/pant26.jpg",
         title: "Pant 26",
         size: [32, 33, 24, 35, 36],
-    color: lightcoral;
+        colors: ['brown', 'crimson', 'fuchsia', 'red', 'violet', 'gold', 'forestgreen', 'turquoise', 'lightcoral', 'coral'], 
+        price: "21.99", 
+        rating: 4
+    },
+    {
+        id: 26,
+        src: "./images/pants/pant27.jpg",
+        title: "Pant 26",
+        size: [32, 33, 24, 35, 36],
         colors: ['brown', 'crimson', 'fuchsia', 'red', 'violet', 'gold', 'forestgreen', 'turquoise', 'lightcoral', 'coral'], 
         price: "21.99", 
         rating: 4
@@ -251,17 +259,195 @@ const pantsArr = [
         colors: ['fuchsia', 'skyblue', 'slategrey', 'greenyellow'], 
         price: "33.99", 
         rating: 5
+    },
+    {
+        id: 29,
+        src: "./images/pants/pant30.jpg",
+        title: "Pant 30",
+        size: [32, 33, 24, 35, 36],
+        colors: ['fuchsia', 'greenyellow', 'lightcoral', 'darkolivegreen'], 
+        price: "34.99", 
+        rating: 5
+    }, 
+    {
+        id: 30,
+        src: "./images/pants/pant31.jpg",
+        title: "Pant 31",
+        size: [32, 33, 24, 35, 36],
+        colors: ['gold', 'chartreuse', 'seagreen', 'sienna', 'skyblue', 'slateblue', 'fuchsia'], 
+        price: "30.99", 
+        rating: 5
+    },
+    {
+        id: 31,
+        src: "./images/pants/pant32.jpg",
+        title: "Pant 32",
+        size: [32, 33, 24, 35, 36],
+        colors: ['seagreen', 'skyblue', 'gray', 'forestgreen', 'slateblue', 'lightcoral'], 
+        price: "29.99", 
+        rating: 5
+    },
+    {
+        id: 32,
+        src: "./images/pants/pant33.png",
+        title: "Pant 33",
+        size: [32, 33, 24, 35, 36],
+        colors: ['darkgoldenrod', 'chartreuse', 'sienna'], 
+        price: "29.99", 
+        rating: 5
+    }, 
+    {
+        id: 33,
+        src: "./images/pants/pant34.jpg",
+        title: "Pant 34",
+        size: [32, 33, 24, 35, 36],
+        colors: ['fuchsia', 'lightcoral', 'coral', 'slateblue', 'crimson'], 
+        price: "28.99", 
+        rating: 5
+    },
+    {
+        id: 34,
+        src: "./images/pants/pant35.jpg",
+        title: "Pant 35",
+        size: [32, 33, 24, 35, 36],
+        colors: ['gold', 'yellowgreen', 'violet', 'turquoise', 'thistle', 'tan', 'teal', 'slategrey', 'slateblue', 'skyblue'], 
+        price: "27.99", 
+        rating: 5
+    },
+    {
+        id: 35,
+        src: "./images/pants/pant36.jpg",
+        title: "Pant 36",
+        size: [32, 33, 24, 35, 36],
+        colors: ['sienna', 'seagreen', 'brown', 'cadetblue', 'thistle', 'darkgoldenrod'], 
+        price: "26.99", 
+        rating: 4
+    },
+    {
+        id: 36,
+        src: "./images/pants/pant37.jpg",
+        title: "Pant 37",
+        size: [32, 33, 24, 35, 36],
+        colors: ['lightcoral', 'greenyellow', 'gray', 'gold', 'forestgreen', 'fuchsia', 'darkgoldenrod', 'darkolivegreen', 'crimson', 'coral'], 
+        price: "25.99", 
+        rating: 4
+    },
+    {
+        id: 37,
+        src: "./images/pants/pant38.jpg",
+        title: "Pant 38",
+        size: [32, 33, 24, 35, 36],
+        colors: ['teal', 'slategrey', 'sienna', 'brown', 'chartreuse', 'coral', 'crimson', 'darkolivegreen', 'darkgoldenrod', 'forestgreen'], 
+        price: "25.99", 
+        rating: 3
+    },
+    {
+        id: 38,
+        src: "./images/pants/pant39.jpg",
+        title: "Pant 39",
+        size: [32, 33, 24, 35, 36],
+        colors: ['coral', 'skyblue', 'tan', 'turquoise'], 
+        price: "23.99", 
+        rating: 5
+    },
+    {
+        id: 39,
+        src: "./images/pants/pant40.jpg",
+        title: "Pant 40",
+        size: [32, 33, 24, 35, 36],
+        colors: ['yellowgreen', 'slategrey', 'slateblue', 'chartreuse', 'darkolivegreen'], 
+        price: "23.99", 
+        rating: 5
+    },
+    {
+        id: 40,
+        src: "./images/pants/pant41.jpg",
+        title: "Pant 41",
+        size: [32, 33, 24, 35, 36],
+        colors: ['brown', 'crimson', 'red', 'fuchsia', 'violet'], 
+        price: "24.99", 
+        rating: 5
+    },
+    {
+        id: 41,
+        src: "./images/pants/pant42.jpg",
+        title: "Pant 42",
+        size: [32, 33, 24, 35, 36],
+        colors: ['coral', 'sienna', 'brown', 'gray'], 
+        price: "25.99", 
+        rating: 4
+    },
+    {
+        id: 42,
+        src: "./images/pants/pant43.jpg",
+        title: "Pant 43",
+        size: [32, 33, 24, 35, 36],
+        colors: ['darkolivegreen', 'gold', 'greenyellow', 'seagreen', 'slategrey', 'teal'], 
+        price: "23.99", 
+        rating: 4
+    },
+    {
+        id: 43,
+        src: "./images/pants/pant44.jpg",
+        title: "Pant 44",
+        size: [32, 33, 24, 35, 36],
+        colors: ['crimson', 'black', 'gray', 'tan', 'turquoise', 'violet'], 
+        price: "24.99", 
+        rating: 4
+    }, 
+    {
+        id: 44,
+        src: "./images/pants/pant45.jpg",
+        title: "Pant 45",
+        size: [32, 33, 24, 35, 36],
+        colors: ['sienna', 'tan', 'turquoise', 'coral', 'darkolivegreen'], 
+        price: "25.99", 
+        rating: 4
+    },
+    {
+        id: 45,
+        src: "./images/pants/pant46.jpg",
+        title: "Pant 46",
+        size: [32, 33, 24, 35, 36],
+        colors: ['slateblue', 'slategrey', 'teal', 'thistle'], 
+        price: "26.99", 
+        rating: 5
+    },
+    {
+        id: 46,
+        src: "./images/pants/pant47.jpg",
+        title: "Pant 47",
+        size: [32, 33, 24, 35, 36],
+        colors: ['gray', 'gold', 'greenyellow', 'lightcoral', 'coral', 'slateblue', 'teal'], 
+        price: "27.99", 
+        rating: 5
+    },
+    {
+        id: 47,
+        src: "./images/pants/pant48.jpg",
+        title: "Pant 48",
+        size: [32, 33, 24, 35, 36],
+        colors: ['coral', 'skyblue', 'tan', 'turquoise', 'yellowgreen', 'violet', 'brown', 'teal', 'crimson', 'darkolivegreen'], 
+        price: "27.99", 
+        rating: 5
+    },
+    {
+        id: 48,
+        src: "./images/pants/pant49.jpg",
+        title: "Pant 49",
+        size: [32, 33, 24, 35, 36],
+        colors: ['slategrey', 'darkolivegreen', 'darkgoldenrod', 'fuchsia', 'turquoise', 'yellowgreen', 'violet', 'thistle', 'tan', 'teal'], 
+        price: "28.99", 
+        rating: 5
+    },
+    {
+        id: 49,
+        src: "./images/pants/pant50.jpg",
+        title: "Pant 08",
+        size: [32, 33, 24, 35, 36],
+        colors: ['lightcoral', 'greenyellow', 'gray', 'gold', 'forestgreen', 'fuchsia', 'darkgoldenrod', 'darkolivegreen', 'crimson', 'coral'], 
+        price: "29.99", 
+        rating: 5
     }
 ]
 console.log(pantsArr)
-//  obj tenplate
-// {
-//     id: ,
-//     src: "./images/pants/pant08.jpg",
-//     title: "Pant 08",
-//     size: [32, 33, 24, 35, 36],
-//     colors: ['', '', '', '', '', '', '', '', '', ''], 
-//     price: "", 
-//     rating: 
-// }
-//
