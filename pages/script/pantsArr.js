@@ -4,6 +4,7 @@ const pantsArr = [
         title: "",
         size: [],
         colors: [],
-        price: ""
+        price: "", 
+        rating: ""
     }
 ]

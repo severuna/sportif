@@ -4,6 +4,7 @@ const shortsArr = [
         title: "",
         size: [],
         colors: [],
-        price: ""
+        price: "",
+        rating: ""
     }
 ]
