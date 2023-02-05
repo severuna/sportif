@@ -42,3 +42,28 @@
     color: #C4C4C4;
     text-transform: uppercase;
 }
+
+.catalog {
+    background-color: #E5E5E5;
+    padding: 3rem 6rem;
+    gap: 3rem;
+}
+
+.catalog-sort {
+    background-color: #FFFFFF;
+    padding: 2.5rem;
+    min-width: 32rem;
+}
+
+.item-title {
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 2rem;
+    color: #000000;
+    letter-spacing: .5rem;
+}
+
+.catalog-list {
+    gap: 3rem;
+    flex-wrap: wrap;
+}
