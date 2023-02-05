@@ -308,3 +308,31 @@ a {
     width: 16rem;
     height: 4rem;
 }
+
+.upBtn {
+    position: fixed;
+    right: 5rem;
+    bottom: 5rem;
+    background-color: #A04955;
+    text-align: center;
+    padding: 1.5rem;
+    width: 5rem;
+    font-weight: 700;
+    border-radius: 50%;
+    color: #FFFFFF;
+    font-size: 4rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: transform box-shadow 1s ease;
+    transition: border 1s ease;
+    transition: background-color 1s ease;
+    transition: color 1s ease;
+    transition: transform 1s ease;
+}
+
+.upBtn:hover {
+    border: 1px solid #A04955;
+    background-color: #F1F1F1;
+    color: #A04955;
+    transform: scale(1.2);
+    box-shadow: inset 0px 4px 4px #A04955;
+}
