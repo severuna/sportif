@@ -1,4 +1,4 @@
-const pantsArr = [
+export const pantsArr = [
     {
         id: 0,
         src: "./images/pants/pant01.jpg",
@@ -443,11 +443,10 @@ const pantsArr = [
     {
         id: 49,
         src: "./images/pants/pant50.jpg",
-        title: "Pant 08",
+        title: "Pant 50",
         size: [32, 33, 24, 35, 36],
         colors: ['lightcoral', 'greenyellow', 'gray', 'gold', 'forestgreen', 'fuchsia', 'darkgoldenrod', 'darkolivegreen', 'crimson', 'coral'], 
         price: "29.99", 
         rating: 5
     }
 ]
-console.log(pantsArr)
