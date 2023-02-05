@@ -1,0 +1,5 @@
+@import url('../../styles/index.css');
+
+.search {
+    background-image: url('../../images/search_logo.svg');
+}
