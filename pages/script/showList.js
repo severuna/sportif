@@ -1,5 +1,7 @@
 import { pantsArr } from './pantsArr.js';
-import { shortsArr } from './shortsArr.js'
+import { shortsArr } from './shortsArr.js';
+import { shirtsArr } from './shirtsArr.js';
+
 const catalogList = document.querySelector('.catalog-list');
 
 const showAddBag = () => {
@@ -90,4 +92,9 @@ if (String(window.location.href).includes('pants')) {
 if (String(window.location.href).includes('shorts')) {
     console.log('+')
     showList(catalogList, shortsArr)
+}
+
+if (String(window.location.href).includes('shirts')) {
+    console.log('+')
+    showList(catalogList, shirtsArr)
 }
