@@ -81,4 +81,12 @@ const showList = (container, arr) => {
     return container
 }
 
-showList(catalogList, pantsArr)
+if (String(window.location.href).includes('pants')) {
+    console.log('+')
+    showList(catalogList, pantsArr)
+}
+
+if (String(window.location.href).includes('shorts')) {
+    console.log('+')
+    showList(catalogList, pantsArr)
+}
