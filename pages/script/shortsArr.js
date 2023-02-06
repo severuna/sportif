@@ -289,7 +289,7 @@ export const shortsArr = [
     },
     {
         id: 32,
-        src: "./images/shorts/short33.png",
+        src: "./images/shorts/short33.jpg",
         title: "Short 33",
         size: [32, 33, 24, 35, 36],
         colors: ['darkgoldenrod', 'chartreuse', 'sienna'], 
