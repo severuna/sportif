@@ -1,4 +1,4 @@
-const shortsArr = [
+export const shortsArr = [
     {
         id: 0,
         src: "./images/shorts/short01.png",
