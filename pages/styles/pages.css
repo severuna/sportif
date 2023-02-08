@@ -124,3 +124,9 @@
     text-align: center;
     color: #FFFFFF;
 }
+
+.item-container {
+    gap: 0.7rem;
+    flex-wrap: wrap;
+    justify-content: left;
+}
