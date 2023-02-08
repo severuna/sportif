@@ -101,6 +101,11 @@ if (String(window.location.href).includes('shorts')) {
 if (String(window.location.href).includes('shirts')) {
     const headLineTitle = document.querySelector('.headline-title');
     headLineTitle.innerHTML = 'SHIRTS';
+    const sizeContainer = document.getElementById('size');
+    sizeContainer.innerHTML = showSort(shirtsArr, 'size');
+    const colorsContainer = document.getElementById('colors');
+    colorsContainer.innerHTML = showSort(shirtsArr, 'colors');
     showList(catalogList, shirtsArr)
 }
-console.log(showSort(shirtsArr))
+console.log(showSort(shirtsArr, 'colors'))
+console.log(showSort(shirtsArr, 'size'))
