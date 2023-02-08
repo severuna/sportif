@@ -84,14 +84,21 @@ const showList = (container, arr) => {
     return container
 }
 
+
 if (String(window.location.href).includes('pants')) {
+    const headLineTitle = document.querySelector('.headline-title');
+    headLineTitle.innerHTML = 'PANTS';
     showList(catalogList, pantsArr)
 }
 
 if (String(window.location.href).includes('shorts')) {
+    const headLineTitle = document.querySelector('.headline-title');
+    headLineTitle.innerHTML = 'SHORTS';
     showList(catalogList, shortsArr)
 }
 
 if (String(window.location.href).includes('shirts')) {
+    const headLineTitle = document.querySelector('.headline-title');
+    headLineTitle.innerHTML = 'SHIRTS';
     showList(catalogList, shirtsArr)
 }
