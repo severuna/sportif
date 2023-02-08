@@ -130,3 +130,12 @@
     flex-wrap: wrap;
     justify-content: left;
 }
+
+#size .container-item {
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    font-size: 2rem;
+    padding: 0.5rem 0.7rem;
+}
