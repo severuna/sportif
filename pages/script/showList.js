@@ -1,6 +1,7 @@
 import { pantsArr } from './pantsArr.js';
 import { shortsArr } from './shortsArr.js';
 import { shirtsArr } from './shirtsArr.js';
+import { showSort } from './showSort.js'
 
 const catalogList = document.querySelector('.catalog-list');
 
@@ -102,3 +103,4 @@ if (String(window.location.href).includes('shirts')) {
     headLineTitle.innerHTML = 'SHIRTS';
     showList(catalogList, shirtsArr)
 }
+console.log(showSort(shirtsArr))
