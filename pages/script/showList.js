@@ -85,16 +85,13 @@ const showList = (container, arr) => {
 }
 
 if (String(window.location.href).includes('pants')) {
-    console.log('+')
     showList(catalogList, pantsArr)
 }
 
 if (String(window.location.href).includes('shorts')) {
-    console.log('+')
     showList(catalogList, shortsArr)
 }
 
 if (String(window.location.href).includes('shirts')) {
-    console.log('+')
     showList(catalogList, shirtsArr)
 }
