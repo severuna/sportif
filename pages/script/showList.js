@@ -1,7 +1,8 @@
 import { pantsArr } from './pantsArr.js';
 import { shortsArr } from './shortsArr.js';
 import { shirtsArr } from './shirtsArr.js';
-import { showSort } from './showSort.js'
+import { showSort } from './showSort.js';
+import { hideContainer } from './showStyle.js';
 
 const catalogList = document.querySelector('.catalog-list');
 
@@ -107,3 +108,6 @@ if (String(window.location.href).includes('shirts')) {
     showSort(shirtsArr, 'colors', colorsContainer);
     showList(catalogList, shirtsArr)
 }
+let cont = document.querySelector('.item-container');
+let btns = document.querySelector('.item-show')
+hideContainer(cont, btns);
