@@ -90,12 +90,20 @@ const showList = (container, arr) => {
 if (String(window.location.href).includes('pants')) {
     const headLineTitle = document.querySelector('.headline-title');
     headLineTitle.innerHTML = 'PANTS';
+    const sizeContainer = document.getElementById('size');
+    showSort(pantsArr, 'size', sizeContainer);
+    const colorsContainer = document.getElementById('colors');
+    showSort(pantsArr, 'colors', colorsContainer);
     showList(catalogList, pantsArr)
 }
 
 if (String(window.location.href).includes('shorts')) {
     const headLineTitle = document.querySelector('.headline-title');
     headLineTitle.innerHTML = 'SHORTS';
+    const sizeContainer = document.getElementById('size');
+    showSort(shortsArr, 'size', sizeContainer);
+    const colorsContainer = document.getElementById('colors');
+    showSort(shortsArr, 'colors', colorsContainer);
     showList(catalogList, shortsArr)
 }
 
