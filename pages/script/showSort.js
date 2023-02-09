@@ -1,9 +1,21 @@
 let controlArrSize = [];
 let controlArrColor = [];
 
+const calcArr = (item, value) => {
+    item.addEventListener('click', e => {
+        e.preventDefault();
+        if (value === 'colors') {
+            console.log(item.style.backgroundColor)
+        }
+        if (value === 'size') {
+            console.log(item.textContent)
+        }
+    })
+}
 const showSortItemColors = (el) => {
     const sortItem = document.createElement('div');
     sortItem.style.backgroundColor = el;
+    calcArr(sortItem, 'colors');
     sortItem.classList = 'container-item';
     return sortItem;
 }
@@ -11,6 +23,7 @@ const showSortItemColors = (el) => {
 const showSortItemSize = (el) => {
     const sortItem = document.createElement('div');
     sortItem.textContent = el;
+    calcArr(sortItem, 'size');
     sortItem.classList = 'container-item';
     return sortItem;
 }
