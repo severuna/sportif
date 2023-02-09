@@ -53,6 +53,7 @@
     background-color: #FFFFFF;
     padding: 2.5rem;
     min-width: 30rem;
+    height: max-content;
 }
 
 .item-title {
