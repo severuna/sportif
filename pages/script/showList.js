@@ -108,6 +108,6 @@ if (String(window.location.href).includes('shirts')) {
     showSort(shirtsArr, 'colors', colorsContainer);
     showList(catalogList, shirtsArr)
 }
-let cont = document.querySelector('.item-container');
+let cont = document.querySelector('#size');
 let btns = document.querySelector('.item-show')
 hideContainer(cont, btns);
