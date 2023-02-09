@@ -1,4 +1,5 @@
-let controlArr = [];
+let controlArrSize = [];
+let controlArrColor = [];
 
 const showSortItemColors = (el) => {
     const sortItem = document.createElement('div');
@@ -15,18 +16,27 @@ const showSortItemSize = (el) => {
 }
 
 export const showSort = (arr, data, container) => {
-    arr.forEach(el => {
-        controlArr = el[data].filter(function(element, index, array) {
-            if (array.lastIndexOf(element) == index) return element
-          })
-    });
     if (data === 'size') {
-        controlArr.forEach(element => {
+        arr.forEach(el => {
+            el[data].forEach(field => {
+                if (!controlArrSize.includes(field)) {
+                    controlArrSize.push(field)
+                }
+            })
+        });
+        controlArrSize.forEach(element => {
             container.append(showSortItemSize(element))
         })
     }
     if (data === 'colors') {
-        controlArr.forEach(element => {
+        arr.forEach(el => {
+            el[data].forEach(field => {
+                if (!controlArrColor.includes(field)) {
+                    controlArrColor.push(field)
+                }
+            })
+        });
+        controlArrColor.forEach(element => {
             container.append(showSortItemColors(element))
         })
     }
