@@ -122,3 +122,8 @@
     background-color: #ffffff;
     color: #B93B54;
 }
+
+.product-info__link {
+    justify-content: left;
+    gap: 3rem;
+}
