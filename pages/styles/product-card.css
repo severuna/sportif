@@ -67,3 +67,14 @@
     color: #000000;
     text-transform: uppercase;
 }
+
+.product-info__price {
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+.product-info__price span {
+    font-size: 3.6rem;
+    font-weight: 600;
+}
