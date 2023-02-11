@@ -7,8 +7,9 @@
 }
 
 .product-img {
-    justify-content: space-between;
+    justify-content:flex-start;
     align-items: center;
+    gap: 2rem;
 }
 
 .product-img__main {
