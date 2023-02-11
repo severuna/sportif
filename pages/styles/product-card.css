@@ -2,4 +2,35 @@
 
 .product {
     padding: 2rem 7rem;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.product-img {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-img__main {
+    width: 35rem;
+    height: 45rem;
+    border: 1px solid rgba(0, 0, 0, .8);
+}
+
+.product-img__mini {
+    padding: 2rem;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.mini-item {
+    width: 14rem;
+    height: 14rem;
+    border: 1px solid #333333;
+    transition: all 1s;
+}
+
+.mini-item:hover {
+    border: 1px solid #B93B54;
+    transform: scale(1.2);
 }
