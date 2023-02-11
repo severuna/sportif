@@ -53,3 +53,17 @@
     font-weight: 400;
     text-transform: uppercase;
 }
+
+.product-info__rating, .rating-list {
+    justify-content: left;
+    gap: 1rem;
+    align-items: center;
+}
+
+.product-info__rating span {
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #000000;
+    text-transform: uppercase;
+}
