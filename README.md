@@ -49,3 +49,14 @@
     - *images* - folder of main images
     - *pages images* - a folder of page images
     - *pants images*, *shorts images*, *shirts images* - storage folders of relevant categories of goods
+
+
+7. **[pantsArr.js](./pages/script/pantsArr.js)**, **[shirtsArr.js](./pages/script/shirtsArr.js)**, **[shortsArr.js](./pages/script/shortsArr.js)** - files of arrays of objects of the corresponding product categories, which contain a description:
+    - *id* - serial number in the category
+    - *src* -  is the path to the image
+    - *title* - product name
+    - *size* - a list of available sizes
+    - *colors* - list of available colors
+    - *price* - price
+    - *rating* - rating on a 5-point scale
+    ** | the list will be supplemented **
