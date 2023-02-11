@@ -127,3 +127,37 @@
     justify-content: left;
     gap: 3rem;
 }
+
+.product-info__order {
+    padding: 3rem 4rem;
+    gap: 3rem;
+    align-items: center;
+}
+
+.order-title {
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 2.4rem;
+    text-align: center;
+    color: #333333;
+    border-bottom: 1px solid #B93B54;
+    padding-bottom: 2rem;
+    width: 35rem;
+}
+
+.order-list {
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.order-list__item {
+    gap: 2rem;
+    align-items: center;
+}
+
+.order-list__item p {
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #333333;
+}
