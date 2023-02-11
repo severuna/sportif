@@ -39,3 +39,8 @@
     - rating and evaluations
     - form for adding product feedback
     - an "up" button
+
+5. **[index.css](./styles/index.css)**, **[pages.css](./pages/styles/pages.css)**, **[product-card.css](./pages/styles/product-card.css)** - style files where:
+    - *index.css* - the main styles of the project
+    - *pages.css* - styles for pants.html, shorts.html, shirts.html
+    - *product-card.css* - styles for the product card page
