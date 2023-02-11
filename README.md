@@ -8,9 +8,15 @@
 
 ### **The main files of the project and their brief description:**
 
-1. [index.html](./index.html) - main page of the project; has :
+1. **[index.html](./index.html)** - main page of the project; has :
     - a navigation bar
     - a search field
     - banners
     - an "up" button
     - etc
+
+2. **[pants.html](./pages/pants.html)**, **[shorts.html](./pages/shorts.html)**, **[shirts.html](./pages/shirts.html)**, pages of relevant product categories that have:
+    - a navigation bar
+    - a search field
+    - sort field
+    - a list of goods of the corresponding category
