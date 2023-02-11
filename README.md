@@ -9,8 +9,8 @@
 ### **The main files of the project and their brief description:**
 
 1. [index.html](./index.html) - main page of the project; has :
-  - a navigation bar
-  - a search field
-  - banners
-  - an "up" button
-  - etc
+    - a navigation bar
+    - a search field
+    - banners
+    - an "up" button
+    - etc
