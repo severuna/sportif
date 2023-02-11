@@ -1,1 +1,1 @@
-<h1 style="color: tan; text-align: center" >"Sportif" online store</h1>
+# | "Sportif" online store
