@@ -32,26 +32,27 @@
     <main class="product flex-row">
         <div class="product-img flex-column">
             <img src="" alt="Product image" class="product-img__main"><!-- тут буде виведено зображення продукту -->
-            <div class="product-img__mini flex-row"><!-- тут буде виведено мініантюри зображень продукту --></div>
+            <div class="product-img__mini flex-row"><!-- тут буде виведено мініантюри зображень продукту -->
+            </div>
         </div>
-        <div class="product-info">
+        <div class="product-info flex-column">
             <h1 class="product-info__title"><!-- тут буде виведено назву продукту --><span><!-- тут буде виведено порядковий номер продукту --></span></h1>
-            <div class="product-info__rating">
-                <div class="list-item__rating flex-row"><!-- тут буде виведено оцінка продукту --></div>
+            <div class="product-info__rating flex-row">
+                <div class="rating-list flex-row"><!-- тут буде виведено оцінка продукту --></div>
                 <span><!-- тут буде виведено кількість оцінок продукту --></span>
             </div>
-            <p class="product-info__price">As low as<span><!-- тут буде виведено ціну продукту --></span></p>
-            <div class="product-info__colors">
+            <p class="product-info__price">As low as <br><span><!-- тут буде виведено ціну продукту --></span></p>
+            <div class="product-info__choice">
                 <h3 class="container-title">COLOR:</h3>
-                <div class="item__container flex-row"><!-- тут буде виведено контейнер кольорів продукту --></div>
+                <div class="container-list flex-row"><!-- тут буде виведено контейнер кольорів продукту --></div>
             </div>
-            <div class="product-info__colors">
+            <div class="product-info__choice">
                 <h3 class="container-title">SIZE:</h3>
-                <div class="item__container flex-row"><!-- тут буде виведено контейнер розмірів продукту --></div>
+                <div class="container-list flex-row"><!-- тут буде виведено контейнер розмірів продукту --></div>
             </div>
             <div class="product-info__btns flex-row">
                 <a href="#" class="add-bag">ADD TO BAG</a>
-                <a href="#" class="add-wish">ADD TO WISHLIST</a>
+                <a href="#" class="add-bag wish">ADD TO WISHLIST</a>
             </div>
             <div class="product-info__link flex-row">
                 <a href="#">
@@ -67,7 +68,7 @@
                     <img src="./images/link.svg" alt="Link">
                 </a>
             </div>
-            <div class="product-info__order flex-row">
+            <div class="product-info__order flex-column">
                 <h3 class="order-title">- Worry Free Shopping -</h3>
                 <div class="order-list flex-row">
                     <div class="order-list__item flex-row">
