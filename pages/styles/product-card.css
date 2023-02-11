@@ -37,7 +37,7 @@
 
 .product-info {
     justify-content: left;
-    gap: 2.5rem;
+    gap: 1rem;
 }
 
 .product-info__title {
@@ -77,4 +77,28 @@
 .product-info__price span {
     font-size: 3.6rem;
     font-weight: 600;
+}
+
+.container-title {
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: #000000;
+}
+
+.container-list {
+    justify-content: left;
+    gap: 1rem;
+    padding: 2rem 0;
+}
+.container-item {
+    width: 4rem;
+    height: 4rem;
+    border: 1px solid black;
+    transition: all 1s;
+}
+
+.container-item:hover {
+    border: 1px solid #B93B54;
+    transform: scale(1.2);
 }
