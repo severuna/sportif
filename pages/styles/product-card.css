@@ -7,19 +7,18 @@
 }
 
 .product-img {
-    justify-content:flex-start;
+    justify-content: space-between;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .product-img__main {
-    width: 35rem;
+    width: 40rem;
     height: 45rem;
     border: 1px solid rgba(0, 0, 0, .8);
 }
 
 .product-img__mini {
-    padding: 2rem;
     justify-content: space-around;
     gap: 2rem;
 }
@@ -38,7 +37,7 @@
 
 .product-info {
     justify-content: left;
-    gap: 1rem;
+    gap: 1.3rem;
 }
 
 .product-info__title {
@@ -90,7 +89,6 @@
 .container-list {
     justify-content: left;
     gap: 1rem;
-    padding: 2rem 0;
 }
 .container-item {
     width: 4rem;
@@ -108,7 +106,7 @@
     justify-content: space-between;
     gap: 2rem;
     align-items: center;
-    padding: 1.5rem 0;
+    padding: .5rem 0;
 }
 
 .add-bag {
