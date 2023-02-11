@@ -34,3 +34,22 @@
     border: 1px solid #B93B54;
     transform: scale(1.2);
 }
+
+.product-info {
+    justify-content: left;
+    gap: 2.5rem;
+}
+
+.product-info__title {
+    font-family: 'Oswald';
+    font-weight: 600;
+    font-size: 4.8rem;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+.product-info__title span {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
