@@ -59,4 +59,4 @@
     - *colors* - list of available colors
     - *price* - price
     - *rating* - rating on a 5-point scale
-    ** | the list will be supplemented **
+    - **the list will be supplemented**
