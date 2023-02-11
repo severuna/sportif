@@ -44,3 +44,8 @@
     - *index.css* - the main styles of the project
     - *pages.css* - styles for pants.html, shorts.html, shirts.html
     - *product-card.css* - styles for the product card page
+
+6. **[images](./images)**, **[pages images](./pages/images)**, **[pants images](./pages/images/pants)**, **[shorts images](./pages/images/shorts)**, **[shirts images](./pages/images/shirts)** - image storage folders:
+    - *images* - folder of main images
+    - *pages images* - a folder of page images
+    - *pants images*, *shorts images*, *shirts images* - storage folders of relevant categories of goods
