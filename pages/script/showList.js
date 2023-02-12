@@ -4,6 +4,7 @@ import { shirtsArr } from './shirtsArr.js';
 import { showAddBag } from './showAddBag.js';
 import { showRating } from './showRating.js';
 import { showImg } from './showImg.js';
+import { showTitle } from './showTitle.js';
 import { showSort } from './showSort.js';
 import { hideContainer } from './showStyle.js';
 
@@ -35,17 +36,10 @@ const showListItemColors = (colors) => {
     return colorsContainer
 }
 
-const showListItemTitle = (title) => {
-    const listItemTitle = document.createElement('h3');
-    listItemTitle.classList = 'list-item__title';
-    listItemTitle.textContent = title;
-    return listItemTitle
-}
-
 const showListItem = (element) => {
     const listItem = document.createElement('div');
     listItem.classList = 'list-item flex-column';
-    listItem.append(showImg(element.src), showListItemTitle(element.title), showRating(element.rating), showListItemPrice(element.price), showListItemColors(element.colors), showAddBag());
+    listItem.append(showImg(element.src), showTitle(element.title), showRating(element.rating), showListItemPrice(element.price), showListItemColors(element.colors), showAddBag());
     return listItem
 }
 
