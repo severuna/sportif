@@ -2,28 +2,11 @@ import { pantsArr } from './pantsArr.js';
 import { shortsArr } from './shortsArr.js';
 import { shirtsArr } from './shirtsArr.js';
 import { showAddBag } from './showAddBag.js';
+import { showRating } from './showRating.js';
 import { showSort } from './showSort.js';
 import { hideContainer } from './showStyle.js';
 
 const catalogList = document.querySelector('.catalog-list');
-
-const showListItemRating = (rating) => {
-    const listItemRating = document.createElement('div');
-    listItemRating.classList = 'list-item__rating flex-row';
-    const gold = Number(rating);
-    const gray = 5 - Number(rating);
-    for (let i = 0; i < gold; i++) {
-        const goldRatingItem = document.createElement('img');
-        goldRatingItem.src = './images/star_gold.svg';
-        listItemRating.append(goldRatingItem)
-    }
-    for (let i = 0; i < gray; i++) {
-        const grayRatingItem = document.createElement('img');
-        grayRatingItem.src = './images/star_gray.svg';
-        listItemRating.append(grayRatingItem)
-    }
-    return listItemRating
-}
 
 const showListItemPrice = (price) => {
     const listItemPrice = document.createElement('p');
@@ -68,7 +51,7 @@ const showListItemImg = (img) => {
 const showListItem = (element) => {
     const listItem = document.createElement('div');
     listItem.classList = 'list-item flex-column';
-    listItem.append(showListItemImg(element.src), showListItemTitle(element.title), showListItemRating(element.rating), showListItemPrice(element.price), showListItemColors(element.colors), showAddBag());
+    listItem.append(showListItemImg(element.src), showListItemTitle(element.title), showRating(element.rating), showListItemPrice(element.price), showListItemColors(element.colors), showAddBag());
     return listItem
 }
 
