@@ -1,6 +1,6 @@
-import { pantsArr } from './pantsArr.js';
-import { shortsArr } from './shortsArr.js';
-import { shirtsArr } from './shirtsArr.js';
+import { pantsArr } from './data/pantsArr.js';
+import { shirtsArr } from './data/shirtsArr.js';
+import { shortsArr } from './data/shortsArr.js';
 import { showItem } from './showItem.js';
 import { showSort } from './showSort.js';
 import { hideContainer } from './showStyle.js';
