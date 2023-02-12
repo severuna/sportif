@@ -3,6 +3,7 @@ import { shortsArr } from './shortsArr.js';
 import { shirtsArr } from './shirtsArr.js';
 import { showAddBag } from './showAddBag.js';
 import { showRating } from './showRating.js';
+import { showImg } from './showImg.js';
 import { showSort } from './showSort.js';
 import { hideContainer } from './showStyle.js';
 
@@ -41,17 +42,10 @@ const showListItemTitle = (title) => {
     return listItemTitle
 }
 
-const showListItemImg = (img) => {
-    const listItemImg = document.createElement('img');
-    listItemImg.classList = 'list-item__img'
-    listItemImg.src = img;
-    return listItemImg
-}
-
 const showListItem = (element) => {
     const listItem = document.createElement('div');
     listItem.classList = 'list-item flex-column';
-    listItem.append(showListItemImg(element.src), showListItemTitle(element.title), showRating(element.rating), showListItemPrice(element.price), showListItemColors(element.colors), showAddBag());
+    listItem.append(showImg(element.src), showListItemTitle(element.title), showRating(element.rating), showListItemPrice(element.price), showListItemColors(element.colors), showAddBag());
     return listItem
 }
 
