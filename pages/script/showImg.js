@@ -1,6 +1,6 @@
-export const showListItemImg = (img) => {
-    const listItemImg = document.createElement('img');
-    listItemImg.classList = 'list-item__img'
-    listItemImg.src = img;
-    return listItemImg
+export const showImg = (img) => {
+    const itemImg = document.createElement('img');
+    itemImg.classList = 'list-item__img'
+    itemImg.src = img;
+    return itemImg
 }
