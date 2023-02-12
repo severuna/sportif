@@ -5,20 +5,11 @@ import { showAddBag } from './showAddBag.js';
 import { showRating } from './showRating.js';
 import { showImg } from './showImg.js';
 import { showTitle } from './showTitle.js';
+import { showPrice } from './showPrice.js';
 import { showSort } from './showSort.js';
 import { hideContainer } from './showStyle.js';
 
 const catalogList = document.querySelector('.catalog-list');
-
-const showListItemPrice = (price) => {
-    const listItemPrice = document.createElement('p');
-    listItemPrice.classList = 'list-item__price';
-    listItemPrice.textContent = 'As low as $';
-    const priceItem = document.createElement('span');
-    priceItem.textContent = price;
-    listItemPrice.append(priceItem)
-    return listItemPrice
-}
 
 const showColorItem = (color) => {
     const colorItem = document.createElement('p');
@@ -39,7 +30,7 @@ const showListItemColors = (colors) => {
 const showListItem = (element) => {
     const listItem = document.createElement('div');
     listItem.classList = 'list-item flex-column';
-    listItem.append(showImg(element.src), showTitle(element.title), showRating(element.rating), showListItemPrice(element.price), showListItemColors(element.colors), showAddBag());
+    listItem.append(showImg(element.src), showTitle(element.title), showRating(element.rating), showPrice(element.price), showListItemColors(element.colors), showAddBag());
     return listItem
 }
 
