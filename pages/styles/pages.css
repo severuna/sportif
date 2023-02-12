@@ -89,6 +89,24 @@
     font-weight: 400;
     font-size: 2rem;
     color: #000000;
+    position: relative;
+}
+.list-item__title span {
+    display: none;
+    position: absolute;
+    color: #333333;
+    font-style: italic;
+    font-size: 1.35rem;
+    border-radius: 2rem .5rem;
+    padding: .4rem;
+    width: 10rem;
+    border: 1px solid #A04955;
+    background-color: #FFFFFF;
+    bottom: 1rem;
+}
+
+.list-item__title:hover span{
+    display: inline;
 }
 
 .list-item__price {
