@@ -6,31 +6,16 @@ import { showRating } from './showRating.js';
 import { showImg } from './showImg.js';
 import { showTitle } from './showTitle.js';
 import { showPrice } from './showPrice.js';
+import { showColors } from './showColors.js';
 import { showSort } from './showSort.js';
 import { hideContainer } from './showStyle.js';
 
 const catalogList = document.querySelector('.catalog-list');
 
-const showColorItem = (color) => {
-    const colorItem = document.createElement('p');
-    colorItem.classList = 'container-item color-item'
-    colorItem.style.backgroundColor = `${color}`;
-    return colorItem
-}
-
-const showListItemColors = (colors) => {
-    const colorsContainer = document.createElement('div');
-    colorsContainer.classList = 'list-item__container flex-row';
-    colors.forEach(element => {
-        colorsContainer.append(showColorItem(element))
-    });
-    return colorsContainer
-}
-
 const showListItem = (element) => {
     const listItem = document.createElement('div');
     listItem.classList = 'list-item flex-column';
-    listItem.append(showImg(element.src), showTitle(element.title), showRating(element.rating), showPrice(element.price), showListItemColors(element.colors), showAddBag());
+    listItem.append(showImg(element.src), showTitle(element.title), showRating(element.rating), showPrice(element.price), showColors(element.colors), showAddBag());
     return listItem
 }
 
