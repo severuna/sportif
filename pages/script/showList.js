@@ -1,18 +1,11 @@
 import { pantsArr } from './pantsArr.js';
 import { shortsArr } from './shortsArr.js';
 import { shirtsArr } from './shirtsArr.js';
+import { showAddBag } from './showAddBag.js';
 import { showSort } from './showSort.js';
 import { hideContainer } from './showStyle.js';
 
 const catalogList = document.querySelector('.catalog-list');
-
-const showAddBag = () => {
-    const addBag = document.createElement('a');
-    addBag.href = '#header';
-    addBag.classList = 'add-bag';
-    addBag.textContent = 'ADD TO CART';
-    return addBag;
-}
 
 const showListItemRating = (rating) => {
     const listItemRating = document.createElement('div');
